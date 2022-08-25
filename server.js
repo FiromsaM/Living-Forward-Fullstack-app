@@ -1,6 +1,7 @@
 const path = require('path')
 const express = require('express')
 const dotenv = require('dotenv')
+const exphbs = require('express-handlebars')
 const morgan = require('morgan')
 const passport = require('passport')
 const session = require('express-session')
