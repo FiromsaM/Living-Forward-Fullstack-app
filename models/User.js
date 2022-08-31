@@ -7,23 +7,23 @@ const UserSchema = new mongoose.Schema({
     },
     displayName: {
         type: String,
-        require: true
+        require: true,
     },
     firstName: {
         type: String,
-        require: true
+        require: true,
     },
     lastName: {
         type: String,
-        require: true
+        require: true,
     },
-    imagine: {
+    image: {
         type: String,
     },
     createdAt: {
         type: Date,
-        default: Date.now
-    }
+        default: Date.now,
+    },
 })
 
 module.exports = mongoose.model('User', UserSchema)
